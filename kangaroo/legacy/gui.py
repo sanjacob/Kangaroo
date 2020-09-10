@@ -34,7 +34,7 @@ import json
 import logging
 import datetime
 import concurrent.futures as futures
-from main import CertificateParser
+from lib.parser import CertificateParser
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
