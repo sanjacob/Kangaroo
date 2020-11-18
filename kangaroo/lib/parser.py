@@ -1,5 +1,4 @@
 #!/usr/bin/env python3.7
-# -*- coding: utf-8 -*-
 
 """
 Certificate Parser, una librería para facilitar la consulta
