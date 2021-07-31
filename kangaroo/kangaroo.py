@@ -91,7 +91,7 @@ class DownloadTask(QtCore.QObject):
         :param bool threaded: If download should use multithreading
         :param int batch_size: Size of batch to download
         :param int max_workers: Workers to use for multithreading
-        :param str folder: Folder name of location to save file
+        :param str folder: Folder name of location to save files to
         :param str filename_format: Custom file naming format
         """
 

@@ -140,7 +140,7 @@ class DownloadDialog(QDialog):
         r_start = (current_value - 1) * self._batch_size
         r_end = current_value * self._batch_size - 1
 
-        range_text = f"Download certificates {r_start} - {r_end}"
+        range_text = f"Descargar certificados {r_start} - {r_end}"
         self.range_label.setText(range_text)
 
 
@@ -282,12 +282,12 @@ class DownloadDetails(QWidget):
         for record_no, record in log:
             record_msg = ""
             if record is CertState.NOT_FOUND:
-                record_msg = "Does not exist"
+                record_msg = "No existe"
             elif record is CertState.FAILED:
-                record_msg = "Download failed"
+                record_msg = "Descarga fallida"
 
             if record is not CertState.DOWNLOADED:
-                display_log.append(f"Certificate {record_no}: {record_msg}")
+                display_log.append(f"Certificado {record_no}: {record_msg}")
 
         self.download_log.setPlainText('\n'.join(display_log))
 

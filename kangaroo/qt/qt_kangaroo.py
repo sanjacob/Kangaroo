@@ -98,7 +98,7 @@ class DownloadController:
     def updateProgress(self):
         if not self.model.cancelled:
             text_progress = f"{self.model.relative_cert}/{self.model.batch_size}"
-            self.ui_item.setProgressText(f"Fetched certificate {text_progress}")
+            self.ui_item.setProgressText(f"Obtenido certificado {text_progress}")
             self.ui_item.setProgress(self.model.progress)
             self.ui_item.setETA(self.model.eta)
 
