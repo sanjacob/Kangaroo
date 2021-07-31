@@ -30,8 +30,8 @@ Analizar estos datos puede ser de interés ya que a partir de éstos se pueden o
 
 Hecho con:
 
-- [PyQt5](https://pypi.org/project/PyQt5/)
-- [RoboBrowser](https://robobrowser.readthedocs.io)
+- [PyQt5][pyqt]
+- [RoboBrowser][robobrowser]
 
 
 
@@ -52,7 +52,7 @@ Hecho con:
 
 [Pipenv][pipenv]
 
-Git (opcional)
+[Git][git] (opcional)
 
 
 
@@ -84,5 +84,16 @@ pipenv run python start.py
 
 ## Licencia
 
-Este programa se distribuye bajo la licencia GPL v2.0, más información en el sitio de la [Free Software Foundation](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html) 
+Este programa se distribuye bajo la licencia [GPL v2.0][license], más información en el sitio de la [Free Software Foundation][gnu]
 
+
+<!-- MARKDOWN LINK REFERENCES -->
+
+
+[pyqt]: https://pypi.org/project/PyQt5/5.15.1/	"Python Bindings for Qt 5"
+[robobrowser]: https://robobrowser.readthedocs.io "RoboBrowser Documentation"
+[git]: https://git-scm.com/	"Git"
+[python]: https://www.python.org/ "Python.org"
+[pipenv]: https://pipenv.pypa.io/en/latest/ "Pipenv"
+[license]: LICENSE "General Public License"
+[gnu]: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html "Free Software Foundation"
