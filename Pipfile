@@ -8,7 +8,7 @@ verify_ssl = true
 [packages]
 robobrowser = "*"
 pyqt5 = "*"
-werkzeug = "~=0.14.1"
+werkzeug = "~=2.2.3"
 appdirs = "*"
 bitmath = "*"
 lxml = "*"
